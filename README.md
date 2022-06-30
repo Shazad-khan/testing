@@ -1,1 +1,1 @@
-Testing integration3
+Checking integration
