@@ -10,8 +10,6 @@ jobs:
     - name: Print a greeting
       run: |
         echo Hello there!
-        env:
-        CI: true
         runs-on: ubuntu-latest
         
 
