@@ -13,10 +13,5 @@ jobs:
         env:
         CI: true
         runs-on: ubuntu-latest
-        runs-on: ${{ matrix.os }}
-        strategy:
-          matrix:
-          os: [ubuntu-20.04, ubuntu-18.04]
-          node: [6, 8, 10]
-
+        
 
